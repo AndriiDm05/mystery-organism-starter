@@ -13,6 +13,9 @@ A simple JavaScript simulation that models the DNA of *P. aequor*, a fictional o
 - Survival prediction based on GC content (≥60%)
 - Generates 30 specimens likely to survive
 
+Tech Stack
+JavaScript (ES6+)
+
 ## Usage
 
 ```js
@@ -31,8 +34,5 @@ specimen.compareDNA(otherSpecimen);
 // Check survival likelihood
 specimen.willLikelySurvive();
 
-Specimen #1 and Specimen #2 have 66.67% DNA in common.
+//Specimen #1 and Specimen #2 have 66.67% DNA in common.
 true // Indicates specimen is likely to survive
-
-Tech Stack
-JavaScript (ES6+)
